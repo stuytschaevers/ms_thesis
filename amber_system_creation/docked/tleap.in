@@ -1,4 +1,5 @@
 source leaprc.protein.ff14SB
+source leaprc.gaff
 loadamberparams atp.frcmod
 loadamberprep atp.prepi
 set default PBRadii mbondi3

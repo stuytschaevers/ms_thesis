@@ -1,0 +1,13 @@
+source oldff/leaprc.ff14SB
+source leaprc.gaff
+set default pbradii mbondi3
+
+loadamberparams /Users/stuytschaevers/Desktop/Thesis/atp_mg2+/amber/test/atp.frcmod
+loadoff /Users/stuytschaevers/Desktop/Thesis/atp_mg2+/amber/test/atp.lib
+complex = loadpdb /Users/stuytschaevers/Desktop/Thesis/atp_mg2+/amber/test/TrwD_atp_pose_50_tleap2_in.pdb
+saveamberparm complex TrwD_pose_50.prmtop TrwD_pose_50.inpcrd
+savepdb complex TrwD_pose_50_tleap2_out.pdb
+
+quit
+
+
