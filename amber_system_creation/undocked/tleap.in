@@ -1,0 +1,9 @@
+source leaprc.protein.ff14SB
+loadamberparams atp.frcmod
+loadamberprep atp.prepi
+set default PBRadii mbondi3
+check ATP
+saveoff ATP atp.lib
+saveMol2 ATP ATP.mol2 0
+saveamberparm ATP atp.prmtop atp.inpcrd
+Quit
