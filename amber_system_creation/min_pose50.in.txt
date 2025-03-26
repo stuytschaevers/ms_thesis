@@ -1,0 +1,5 @@
+Initial minimization of TrwD_pose50
+&cntrl
+ imin=1, maxcyc=100000, ncyc=50000,
+ cut=16, ntb=0, igb=8,
+&end
