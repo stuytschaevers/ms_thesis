@@ -1,0 +1,49 @@
+﻿2018[a]
+allow_non_integral_charges                yes
+compute_grids                             yes
+grid_spacing                              0.4
+output_molecule                           no
+contact_score                             no
+energy_score                              yes
+energy_cutoff_distance                    9999
+atom_model                                a
+attractive_exponent                       6
+repulsive_exponent                        12
+distance_dielectric                       yes
+dielectric_factor                         4.0
+bump_filter                               yes
+bump_overlap                              0.75
+receptor_file                             /home/sjt3532/dockTutorial/tutorial1_2018/1.dockprep/2nnq_rec_withH.mol2
+box_file                                  2nnq.box.pdb
+vdw_definition_file                       /home/sjt3532/dockTutorial/tutorial1_2018/3.gridbox/vdw_AMBER_parm99.defn
+score_grid_prefix                         grid
+chemical_definition_file                      /home/sjt3532/dockTutorial/tutorial1_2018/3.gridbox/chem.defn
+
+
+2024
+allow_non_integral_charges                yes
+compute_grids                             yes
+grid_spacing                              0.4
+output_molecule                           no
+contact_score                             no
+energy_score                              yes
+energy_cutoff_distance                    9999
+atom_model                                a
+attractive_exponent                       6
+repulsive_exponent                        9
+distance_dielectric                       yes
+dielectric_factor                         4.0
+bump_filter                               yes
+bump_overlap                              0.75
+chemical_definition_file                         /home/sjt3532/dockTutorial/tutorial1_2024/003_gridbox/chem.defn
+receptor_file                            /home/sjt3532/dockTutorial/tutorial1_2024/003_gridbox/2ito_protein_with_charges.mol2
+box_file                                  2ITO.box.pdb
+vdw_definition_file                       /home/sjt3532/dockTutorial/tutorial1_2024/003_gridbox/vdw_AMBER_parm99.defn
+score_grid_prefix                         grid
+
+
+
+
+
+
+[a]used this one
